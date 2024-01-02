@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding:0;
+}
+.chatroom-container{
+    display: none;
+    /* TODO  this has to be changed to BLOCK FOR DEVELOPMENT*/
+
+}
+/* #form{
+    display: none; 
+  
+} */
+
+  /* TODO  this commnent has to be removed for development  */
+
+.chatroom-header{
+    font-size:2rem;
+    font-weight:600;
+    text-align:center;
+    padding: 0.75rem;
+    background-color: black;
+    color:white;
+}
+
+.messages{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e1e1e1;
+}
+.sent{
+    align-self: flex-end;
+}
+.message{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size:1.3rem;
+    background-color: #dcf8c6;
+    width: fit-content;
+    border-radius: 5px;
+   
+}
+
+#message-input{
+    width: 75vw;
+    min-height: 50px;
+    height: fit-content;
+}
+#input_field{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem ;
+  text-align: center;
+}
+#send-btn{
+
+    padding: 0.5rem 1rem ;
+    cursor: pointer;
+}
+
+
